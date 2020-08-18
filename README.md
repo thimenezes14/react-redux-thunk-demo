@@ -15,3 +15,15 @@ Uma vez na lista, o usuário poderá remover o(s) item(ns) adicionado(s), além 
 **O que é duck pattern?** -> é um padrão de organização de código que visa implementar action creators, states e reducers em um único arquivo de forma a facilitar a escalabilidade do Redux.
 
 **Redux Thunk Middleware** -> é uma biblioteca que permite utilizar funções assíncronas (ex.: chamada API) dentro do Redux, sendo responsável por realizar os dispatches como callbacks.
+
+## Executando o Projeto
+
+Certifique-se de possuir o Node instalado na sua máquina. Se não possuir, [Create React App](https://nodejs.org/pt-br/download/).
+
+A versão do Node deve ser superior à **8.10** e do NPM superior à **5.6**
+
+Baixe ou clone o projeto deste repositório.
+
+Feito isso, acesse a pasta do projeto e execute o comando ```npm install``` e aguarde as dependências serem instaladas.
+
+Agora, rode ```npm start```, aguarde o início do app e aproveite!
