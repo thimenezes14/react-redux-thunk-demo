@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com o client [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+Este projeto visa demonstrar o funcionamento básico do Redux com o middleware Thunk. O objetivo é também demonstrar a estrutura do duck pattern.
 
-### `npm start`
+Trata-se de um sistema básico de busca de repositórios do GitHub para adicionar a uma lista personalizada.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O usuário deve inserir o username e o nome do repositório e aguardar o resultado da chamada API.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Feito isso, ele terá as opções de limpar a busca ou adicionar o resultado à sua lista de repositórios, bem como acessar o link direto para o repositório pesquisado.
 
-### `npm test`
+Uma vez na lista, o usuário poderá remover o(s) item(ns) adicionado(s), além de também poder acessar o link para o repositório.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**O que é duck pattern?** -> é um padrão de organização de código que visa implementar action creators, states e reducers em um único arquivo de forma a facilitar a escalabilidade do Redux.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Redux Thunk Middleware** -> é uma biblioteca que permite utilizar funções assíncronas (ex.: chamada API) dentro do Redux, sendo responsável por realizar os dispatches como callbacks.
