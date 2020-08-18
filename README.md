@@ -18,7 +18,7 @@ Uma vez na lista, o usuário poderá remover o(s) item(ns) adicionado(s), além 
 
 ## Executando o Projeto
 
-Certifique-se de possuir o Node instalado na sua máquina. Se não possuir, [Create React App](https://nodejs.org/pt-br/download/).
+Certifique-se de possuir o Node instalado na sua máquina. Se não possuir, [baixe-o aqui](https://nodejs.org/pt-br/download/).
 
 A versão do Node deve ser superior à **8.10** e do NPM superior à **5.6**
 
